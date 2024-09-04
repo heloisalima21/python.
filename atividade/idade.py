@@ -1,5 +1,5 @@
 import os
-os.system("cls || clear")
+os.system ("cls || clear")
 
 # solicitando dados.
 idade = int(input("digite sua idade: "))
