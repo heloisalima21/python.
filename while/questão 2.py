@@ -1,7 +1,8 @@
 import os
 os.system ("cls || clear")
+numero = 51
 
-for numero in range (1,6):
-    quadrado = numero ** 2
+while numero % 7 != 0:
+    numero += 1
 
-    print (f"o quadrado de {numero} e {quadrado} ")
+    print("O primeiro numnero maior que 50 que é divisivel por 7 é:", numero)
